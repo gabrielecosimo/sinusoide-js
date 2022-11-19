@@ -23,7 +23,6 @@ function setup() {
 	createCanvas(400, 400);
 	background(220);
 	line(0, 200, 400, 200);
-	
 }
 
 function draw() {

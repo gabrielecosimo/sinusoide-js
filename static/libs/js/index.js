@@ -13,8 +13,8 @@ frequenzaInput.addEventListener("input", function (e) {
 });
 
 faseInput.addEventListener("input", function (e) {
+	clearPhase();
 	fase = parseFloat(faseInput.value);
 	console.log(`fase cambiata a --> ${fase}`);
-	clearPhase();
 	
 });

@@ -13,11 +13,6 @@ function reset() {
 	line(0, 200, 400, 200);
 }
 
-function clearPhase() {
-	background(220);
-	stroke("grey");
-	line(0, 200, 400, 200);
-}
 
 function setup() {
 	createCanvas(400, 400);
